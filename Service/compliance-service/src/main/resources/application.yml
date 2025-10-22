@@ -1,0 +1,21 @@
+server:
+  port: 8081   # set unique port for compliance service
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/compliance_service
+    username: root
+    password: numpy@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update   # create/update tables automatically
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+logging:
+  level:
+    org.springframework: INFO
