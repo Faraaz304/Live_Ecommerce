@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "name": "Auth Service",
+            "path": "Service/auth-service"
+        },
+        {
+            "name": "Compliance Service", 
+            "path": "Service/compliance-service"
+        }
+    ],
+    "settings": {
+        "java.configuration.updateBuildConfiguration": "automatic",
+        "java.import.maven.enabled": true
+    }
+}
